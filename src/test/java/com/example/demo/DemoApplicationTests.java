@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import org.junit.jupiter.api.Test;
+import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,6 +14,8 @@ class DemoApplicationTests {
 	@Test
 	void contextLoads() {
 		log.info("Application Test case executed -------->");
+		log.info("Application Test case executed with second log statements-------->");
+		Assert.assertEquals(true, true);
 	}
 
 }
