@@ -15,6 +15,7 @@ class DemoApplicationTests {
 	void contextLoads() {
 		log.info("Application Test case executed -------->");
 		log.info("Application Test case executed with second log statements-------->");
+		log.info("Application Test case executed with Third log statements for testing purpose-------->");
 		Assert.assertEquals(true, true);
 	}
 
